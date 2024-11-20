@@ -1,0 +1,428 @@
+
+        $('.placementLogos-section__slider').not('.slick-initialized').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            speed: 300,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            variableWidth: true,
+            nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+            prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+        });
+
+
+$('.placementStudent-section__slider').not('.slick-initialized').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 700,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            variableWidth: false,
+            nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+            prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+                responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+
+        });
+$('.campuslifeslides-section__slider').not('.slick-initialized').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 700,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            variableWidth: false,
+            nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+            prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+                responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+
+        });
+
+$('.placementStudentall-section__slider').not('.slick-initialized').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 700,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            variableWidth: false,
+            nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+            prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+                responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+
+        });
+
+        $('.happening-section__slider').not('.slick-initialized').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            variableWidth: true,
+            nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+            prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+
+        });
+
+ $('.schoolevents-section__slider_achievers').not('.slick-initialized').slick({
+             dots: false,
+             arrows: true,
+             infinite: true,
+             speed: 1000,
+             autoplay: true,
+             autoplaySpeed: 3000,
+             slidesToShow: 2,
+             slidesToScroll: 1,
+             variableWidth: false,
+            nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+            prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+        });
+
+        $('.ScrollPlacement-section__slider').not('.slick-initialized').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            speed: 400,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            variableWidth: true,
+            nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+            prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+        });
+
+
+        $('.home-noti-slider').not('.slick-initialized').slick({
+            dots: false,
+            infinite: true,
+            speed: 1000,
+            autoplay: true,
+            autoplaySpeed: 8000,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            variableWidth: true,
+            nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+            prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+        });
+
+
+
+      
+
+
+     $('.latest-notice-slider').not('.slick-initialized').slick({
+        dots: false,
+        infinite: true,
+        speed: 400,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: true,
+        variableWidth: false,
+        nextArrow: '<div class="fa fa-arrow-circle-o-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-arrow-circle-o-left slick-prev"></div>',
+    });
+
+
+
+         $('.testimoni-section__slider').not('.slick-initialized').slick({
+        dots: true,
+        infinite: true,
+        speed: 1200,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    });
+
+
+    $('.schools-section__slider').not('.slick-initialized').slick({
+        dots: true,
+        infinite: true,
+        speed: 1200,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+        prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    });
+
+
+ $('.faculty-section__slider').not('.slick-initialized').slick({
+     dots: false,
+     arrows: true,
+     infinite: true,
+     speed: 1200,
+     autoplay: true,
+     autoplaySpeed: 4000,
+     slidesToShow: 5,
+     slidesToScroll: 1,
+     variableWidth: false,
+    nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+    prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }]
+});
+
+$('.department-slider').not('.slick-initialized').slick({
+dots: true,
+arrows: false,
+infinite: true,
+speed: 400,
+autoplay: true,
+autoplaySpeed: 3000,
+slidesToShow: 1,
+slidesToScroll: 1,
+variableWidth: true,
+nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+});
+
+
+$('.aboutImage-slider').not('.slick-initialized').slick({
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+    prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+    responsive: [{
+        breakpoint: 576,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }]
+});
+
+
+
+       $('.aboutImage-slider_sohmt').not('.slick-initialized').slick({
+            dots: false,
+            infinite: true,
+            speed: 1000,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+            prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+            responsive: [{
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+        });
+
+ $('.studentTestiSec-section__slider').not('.slick-initialized').slick({
+     dots: false,
+     arrows: true,
+     infinite: true,
+     speed: 1500,
+     autoplay: true,
+     autoplaySpeed: 6000,
+     slidesToShow: 3,
+     slidesToScroll: 1,
+     variableWidth: false,
+    nextArrow: '<div class="fa fa-chevron-right slick-next"></div>',
+    prevArrow: '<div class="fa fa-chevron-left slick-prev"></div>',
+
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }]
+});
+
+
+
+// $(function() {
+//     $(".dropdown-menu").on("click", function(e) {
+//     $(".col-megamenu").removeClass("hide");
+//     // $(".closePanel-1").addClass("hide");
+//     e.stopPropagation()
+//    });
+// }); 
+
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1) {
+        $('.header').addClass("sticky");
+        $('.latest-notice-slider').addClass("stickyBottom").slick('slickGoTo', 0);
+        $('.allNotification').addClass("moveUp");
+    } else {
+        $('header').removeClass("sticky");
+        $('.latest-notice-slider').removeClass("stickyBottom");
+        $('.allNotification').removeClass("moveUp");
+    }
+    if ($(window).scrollTop() >= 500) {
+        $('.gotoTop').addClass('moveUp');
+    } else {
+        $('.gotoTop').removeClass('moveUp');
+    }
+});
+
+
+$('.gotoTop__icon').click(function() {
+    $("html, body").animate({ scrollTop: '0' }, 600);
+});
+
+
+document.addEventListener("DOMContentLoaded", function(){
+
+window.addEventListener('scroll', function() {
+   
+    if (window.scrollY > 150) {
+        document.getElementById('navTopMenus').classList.add('fixed-top');
+        //add padding top to show content behind navbar Top
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+    } else {
+        document.getElementById('navTopMenus').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+    } 
+});
+}); 
+
+
+$(window).ready(function() {
+setInterval(function() {
+$('.SidebarButton-fixed').addClass("show")
+});
+
+});
+
+
+
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+
+
+
+
+
+$(document).ready(function () { 
+$('.has-megamenu').hover(function () { 
+    $(this).addClass('show');
+    $(this).find('.dropdown-menu').addClass('show'); 
+}, function () { 
+    $(this).removeClass('show'); 
+    $(this).find('.dropdown-menu').removeClass('show'); 
+}); 
+}); 
+
+
+
+$(function() {  
+//admissions AutoLoad popup Modal
+
+//$("#popModel_admission").modal('show');
+}); 
+
+
+
+// Set Carousel Controls for Placement Highlights
+$(document).ready(function(){
+$(".carousel-control-prev").click(function(){
+$("#carouselExampleAutoplaying_1").carousel("prev");
+});
+$(".carousel-control-next").click(function(){
+$("#carouselExampleAutoplaying_1").carousel("next");
+});
+
+});
+
+
+

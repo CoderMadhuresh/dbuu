@@ -1,0 +1,3451 @@
+.social-media-icon-top {
+    width: 18px !important;
+    text-decoration: none !important;
+}
+.social-media-icon {
+    width: 30px !important;
+}
+.pl-item {
+    border: 1px solid var(--bg-gray);
+    margin-right: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 10px rgba(37, 37, 37, 0.1);
+}
+
+/* slick pagination style */
+
+.pagination-style-1 .slick-dots {
+    margin: 10px 0 0 0;
+    padding: 0 0 0 60px;
+}
+
+.pagination-style-1 .slick-dots li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.headerTop {
+    background: #c92039 !important;
+}
+
+.top-notification-slider .slick-arrow {
+    color: #eee !important;
+
+}
+
+.pagination-style-1 .slick-dots li button {
+    padding: 0;
+    border: 0;
+    height: 12px;
+    width: 12px;
+    display: block;
+    font-size: 0;
+    background: var(--bg-lightGray);
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.pagination-style-1 .slick-dots li.slick-active button {
+    background: #c92039;
+    border: #c92039;
+}
+
+.pagination-style-1 .slick-arrow {
+    position: absolute;
+    bottom: -34px;
+    border: 0px solid #c92039 !important;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    color: #c92039;
+    z-index: 1;
+}
+
+.pagination-style-1 .slick-arrow.slick-next {
+    left: 26px;
+}
+
+.navbar .megamenu {
+    /*    padding: 1rem; */
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: -2px;
+    }
+
+}
+
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+.iqacNav{
+     display: none;   
+    }
+@media(max-width: 991px) {
+
+
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+
+        margin-top: 10px;
+    }
+.iqacNav{
+     display: block !important;   
+    }
+
+    .navadhard_social_card .card-body{
+        padding: 0px;
+        min-height: auto !important;
+    }
+
+}
+
+.nav-link:hover .megamenu {
+    display: block !important;
+}
+
+/* New CSS */
+.navbar-brand {
+    color: #fff;
+
+}
+
+.col-megamenu {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.brandLogo {}
+
+.navTop {
+    padding-left: 9px;
+    padding-right: 9px;
+    background: #172b52;
+}
+
+.navbar-expand-lg {
+    /*    background: #172b52;*/
+}
+
+.list-unstyled li a {
+    color: #000;
+}
+
+/*.MenuTransition{
+    transition: 0.9s !important;
+}*/
+.navbar-expand-lg .nav-item a {
+    color: #fff;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url(../images/mobile-menu.png) !important;
+}
+
+.TopPhone {}
+
+.dropdown-menu.show {
+    overflow-x: hidden !important;
+
+}
+
+.col-megamenu .list-unstyled li a {
+    color: #000;
+    font-size: 15px;
+    border-left: 2px solid #c92039 !important;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.MenuContainer .title {
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #f77708 !important;
+}
+
+.col-megamenu .list-unstyled li a:hover {
+    text-decoration: underline;
+    color: #c92039 !important;
+}
+
+.Ddn a {
+    color: #c92039 !important;
+    border-left: 2px solid #c92039 !important;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.Ddn a:hover {
+    text-decoration: underline;
+}
+
+.col-megamenu .schoolDep li a {
+    border-left: none !important;
+    padding-left: 0px !important;
+    font-size: 13px;
+}
+
+.SchoolTitle {
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.topPhoneNo {
+    margin-top: 30px;
+}
+
+.Exlnce {
+    width: 105px;
+    margin-top: 12px;
+    float: right;
+}
+
+.TopPhone a {
+    color: #c92039;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.TopPhone .fa {
+    font-size: 17px;
+    color: #c92039;
+}
+
+.TopPhone a:hover {
+    text-decoration: underline;
+    transition: ease-in-out 0.2s;
+}
+
+.TopRight {
+    float: right;
+}
+
+.navbar-brand .fa-home {
+    font-size: 28px !important;
+}
+
+.navbar-brand:hover {
+    color: #fba215;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fba215;
+}
+
+.dropdown-menu {
+    background: transparent !important;
+    border: none !important;
+    top: none !important;
+}
+
+.MenuContainer {
+    color: #c92039 !important;
+    padding: 0px !important;
+    background-color: #eee !important;
+}
+
+.BottomLinks {
+    background-image: linear-gradient(#c92039, #172b52);
+    padding: 14px 3px 2px 14px;
+    margin-bottom: 6px;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.BottomLinks p a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.BottomLinks p a:hover {
+    text-decoration: underline;
+}
+
+.closePanel {
+    float: right;
+}
+
+.closePanel-1 {
+    color: red !important;
+}
+
+.closePanel-1 .fa {
+    float: right;
+    background: red;
+    color: #fff;
+    padding: 3px 5px 4px 5px;
+    border-radius: 100%;
+    font-size: 10px;
+}
+
+.ProgramsTabsMenu .list-unstyled {
+    margin-top: 15px;
+}
+
+.AdmissionMegaMenu {
+    /*        padding-top:20px;*/
+    /*        padding-bottom: 20px;*/
+}
+
+.Exlinks {
+    background-image: linear-gradient(#c92039, #172b52) !important;
+}
+
+.Exlinks li {
+
+    padding: 19px 3px 12px 14px !important;
+
+}
+
+.Exlinks .fa {
+    color: #fba215 !important;
+    padding-right: 10px;
+}
+
+.Exlinks li a {
+    color: #fff !important;
+    font-size: 18px !important;
+    border-left: none !important;
+}
+
+.m-0 {
+    colo: #000;
+}
+
+.CampusCls {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.CampusCls .fa {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.CampusCls h2 {
+    color: #fba215;
+    line-height: 1;
+    font-size: 26px;
+}
+
+.CampusCls small {
+    color: #fff;
+    font-size: 17px;
+}
+
+.CampusCls2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.CampusCls2 ul li {
+    color: #fff;
+}
+
+.CampusCls p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 4px;
+}
+
+.PlacementStats {
+    padding-top: 30px;
+}
+
+.PlacementStats h2 {
+    font-size: 35px;
+}
+
+.PlacementStats p {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.home-notifications p {
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+
+.home-notifications {
+    padding-left: 0px !important;
+}
+
+.home-notifications .card-footer {
+    background-color: transparent !important;
+}
+
+.hns-date span {
+    color: #c92039 !important;
+}
+
+.hns-date small {
+    color: #000 !important;
+}
+
+.research-section__numbers .card {
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.10) 6px 18px 31px;
+    margin-bottom: 10px;
+    border: 0px !important;
+}
+
+.noti-slider__item {
+    min-height: 185px !important;
+    width: 265px !important;
+    margin-right: 7px !important;
+}
+
+.dbuuRed {
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+.research-section__numbers h3 {
+    font-size: 50px;
+    line-height: 50px;
+    color: #172b52 !important;
+}
+
+.research-section__numbers small {}
+
+.header-social ul li a {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header-social ul li a:hover {
+    text-decoration: underline;
+}
+
+.header__top--links a {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.research-section__numbers small {
+    font-family: unset !important;
+}
+
+.placementLogos-section__slider .slick-slide img {
+    width: 135px !important;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.ResearchCollab .slick-slide img {
+    width: 200px !important;
+    border: 1px solid #ddd;
+}
+
+.achievement-section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, #c92032 0%, #172b52 100%);
+    opacity: 1;
+}
+
+.welcome-section__bottom:before {
+    /*content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, #c92032 0%, #172b52 100%);
+    opacity: 0.8;*/
+}
+
+.DBUUSchoolsSec:before {
+    /*content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background-image: linear-gradient(90deg, #c92032 0%, #172b52 100%) !important;
+    opacity: 0.8 !important;*/
+}
+
+.stories-section__videoThumb--video {
+    margin-bottom: 0px !important;
+    border: 0px solid #fff !important;
+    border-radius: 10px !important;
+}
+
+.CampusTourYouBtn .play-btn {
+    left: 46% !important;
+    top: 56% !important;
+}
+
+.CampusTourYouBtn {
+    margin-top: 10px;
+}
+
+.WhyDBUUSec p {
+    color: #fff;
+}
+
+.ourSchool-section .card {
+    border-radius: 10px;
+
+}
+
+.ourSchool-section .card .btn-primary {
+    padding: 5px 14px !important;
+    font-size: 14px !important;
+    background: #c92039
+        /*border:2px solid #c92039;
+   color:#c92039;*/
+}
+
+
+.ourSchool-section .card img {
+    /* width: 58px;
+    margin-left: 10px;
+    margin-top: 18px;*/
+}
+
+.schools-section__slider--item {
+    /*    height: 308px;*/
+    margin-right: 15px;
+    /*    padding-bottom: 15px;*/
+    background: var(--bg-white);
+    border-radius: 20px;
+}
+
+.schools-section__slider--item h6 {
+    text-transform: uppercase;
+    color: var(--text-gray);
+    font-family: var(--primary-sub-font);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.schools-section__slider--item h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--text-blue);
+    line-height: 26px;
+}
+
+.schools-section__slider--item p {
+    font-size: 15px !important;
+    line-height: 19px;
+    /*    max-height: 200px;*/
+    /* overflow-y: scroll;
+    scrollbar-width: thin;*/
+    -ms-overflow-style: none;
+}
+
+.schools-section__slider--item .s-title {
+    padding: 8px 5px 2px 8px;
+    margin-bottom: -8px;
+    font-size: 21px;
+    font-weight: bolder;
+    line-height: 22px;
+}
+
+.schools-section__slider--item .btn-primary {
+    /*padding: 4px 10px 2px 10px !important;
+   font-size: 14px !important;*/
+    padding: 2px 9px 2px 9px !important;
+    font-size: 12px !important;
+    background: #c92039;
+
+    margin-left: 1px;
+}
+
+.schools-section__slider--item .btn-primary:hover {
+    background: #172b52;
+    /* color: #fff;*/
+}
+
+.CE_courses .btn-primary {
+    background: #172b52 !important;
+}
+
+.CE_courses .btn-primary:hover {
+    background: #c92039 !important;
+}
+
+.br-10 {
+    border-radius: 10px !important;
+}
+
+.schools-section__slider--item img {
+    /* border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;*/
+}
+
+.ourSchool-section .main-heading h2 {
+    color: #fff !important;
+    margin: 0px !important;
+}
+
+.aboutDBUUTitle h1 {
+    color: #fff !important;
+}
+
+.ourSchool-section .main-heading h4 {
+    color: #fff !important;
+    margin: 0px !important;
+}
+
+.ourSchool-section .pagination-style-1 .slick-arrow {
+    border: 0px solid #fff !important;
+    color: #fff !important;
+
+}
+
+.ourSchool-section .pagination-style-1 .slick-dots li.slick-active button {
+    background: #fba215;
+    border: #fba215;
+}
+
+.fixed-top {
+    top: 40pxm !important transform: translateY(40px);
+    transition: transform .3s;
+}
+
+.gotoTop__icon {
+    height: 38px !important;
+    width: 38px !important;
+    line-height: 38px !important;
+    color: #fff !important;
+    background: #c92039 !important;
+    font-size: 18px !important;
+}
+
+.AdmHelpNo {
+    /*line-height: 12px;
+    border: 1px solid #fba215;
+    border-radius: 7px;
+    padding: 2px 0px 2px 0px;*/
+
+    line-height: 14px;
+    /* border: 1px solid #fba215; */
+    border-radius: 7px;
+    padding: 2px 0px 3px 0px;
+    background: transparent;
+}
+
+.AdmHelpNo:hover {
+    background: #c92039;
+}
+
+.AdmHelpNo span {
+    font-size: 11px;
+    color: #fff;
+    font-weight: ;
+    ;
+}
+
+.HelpNumber {
+    font-size: 18px !important;
+    color: #fba215 !important;
+    font-weight: bold;
+}
+
+.HomeNotificationsS {}
+
+.HomeNotificationsS .pagination-style-1 .slick-arrow {
+    border: 0px solid #c92039 !important;
+    color: #c92039 !important;
+
+}
+
+.HomeNotificationsS .pagination-style-1 .slick-dots li.slick-active button {
+    background: #c92039 !important;
+    border: #c92039 !important;
+}
+
+.happening-section__slider .slick-slide {
+    width: 310px !important;
+    background: #172b52;
+    padding: 9px;
+    margin-right: 13px;
+    border: 0px !important;
+    min-height: 190px !important;
+}
+
+.happening-section__slider .slick-slide h4 {
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 16px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.happening-section__slider .slick-slide p {
+    margin: 0px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.happening-section__slider .slick-slide .fa {
+    display: inline;
+    color: #fff;
+}
+
+.happening-section__slider .btn-primary {
+    padding: 4px 10px 2px 10px !important;
+    font-size: 14px !important;
+    background: #f77708;
+
+    margin-left: 2px;
+}
+
+.happening-section__slider .btn-primary .fa {
+    color: #fff;
+}
+
+.happening-section__slider .btn-primary:hover {
+    background: #c92039;
+    /* color: #fff;*/
+}
+
+.ScrollPlacement-section__slider .slick-slide {
+    width: 635px !important;
+    padding: 0px;
+    margin-right: 13px;
+    border: 0px !important;
+}
+
+.ScrollPlacement-section__slider .slick-slide img {
+    width: 100% !important;
+}
+
+.leimgb {
+
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.conox {
+    position: absolute;
+    bottom: 33px;
+    z-index: 0;
+    padding: 0 42px;
+}
+
+.conox span {
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.conox img {
+    width: 100%;
+}
+
+.firstimg {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.txtbxc {
+    position: absolute;
+    bottom: 13px;
+    z-index: 0;
+    padding: 0 25px;
+}
+
+.txtbxc img {
+/*    width: 150px;*/
+    width: 110px;
+}
+
+.seconea,
+.sliderbx {
+    width: 100%;
+}
+
+.txtbxc span {
+/*    color: #fff;
+    display: inline-block;
+    font-size: 27px;
+    font-weight: 600;
+    vertical-align: bottom;
+    line-height: 30px;
+    text-align: left;
+    margin: 0 0 0 10px;*/
+
+    color: #fff;
+    display: inline-block;
+    font-size: 27px;
+    font-weight: 600;
+    vertical-align: bottom;
+    line-height: 26px;
+    text-align: left;
+    margin: 0 0 -3px 8px;
+}
+
+.KnowMoreCampusLink {
+    color: #c92039;
+    text-transform: uppercase;
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.KnowMoreCampusLink:hover {
+    text-decoration: underline;
+    color: #172b52;
+}
+
+.st-image-logo {
+    position: absolute;
+    left: 20px;
+    bottom: 3px;
+    width: 170px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+
+/* About US Page CSS */
+/* About US Page CSS */
+
+.aboutDBUUTitle h2 {
+    color: #fff;
+    border-left: 5px solid #fba215;
+    padding-left: 10px;
+}
+
+.pt-10 {
+    padding-top: 120px;
+
+}
+
+.pb-10 {
+    padding-bottom: 100px;
+}
+
+.pb-1 {
+    padding-bottom: 1px;
+
+}
+
+.AboutYouTubeLink .stories-section__videoThumb--video .play-btn {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-57%, -19%) !important;
+    /* bottom: 12% !important; */
+}
+
+.AboutUsText .main-heading h1 {
+    color: #000 !important;
+}
+
+.aboutNumber-section {
+    border-radius: 20px;
+}
+
+.aboutNumber-section__nos span {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    line-height: 50px;
+    color: #eee;
+}
+
+.aboutNumber-section__nos small {
+    line-height: 18px;
+    display: block;
+    color: #eee;
+}
+
+.aboutSec-margin {
+    /*    margin-top: -98px;*/
+}
+
+.aboutNumber-section .borderBox {
+    border-right: 1px solid #eee;
+
+}
+
+.placementSupport-section .col-lg-5::before {
+    content: '';
+    /*    background: rgba(33, 30, 30, 0.3);*/
+    background: rgb(0 0 0 / 69%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.choose-section__content .card-body {
+    min-height: 100px;
+    padding: 30px;
+}
+
+.choose-section__content .card-footer {
+    background: transparent;
+    padding: 30px;
+}
+
+.choose-section__content h4 {
+    /* font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;*/
+
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0px !important;
+}
+
+.dbuuNow {
+    color: #fba215;
+}
+
+.timeline-year span {
+    background: #172b52;
+    color: #fff;
+    padding: 7px 10px 8px 14px;
+    font-size: 18px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.timeline-year {
+    margin-top: -24px;
+    margin-bottom: 15px;
+}
+
+.dbuuTimeLineIcon .fa-university {
+    opacity: 0.3;
+    font-size: 25px;
+    position: absolute;
+    right: 11px;
+    bottom: 8px;
+}
+
+.brd {
+    border-radius: 0px !important;
+}
+
+.NowDBUUtxt {
+    color: #c92039;
+}
+
+/* About US Page CSS */
+/* About US Page CSS */
+
+
+/* School Page CSS Start */
+.programBanner {
+    border-radius: 0 0 0 0 !important;
+    padding-top: 300px;
+    padding-bottom: 30px;
+}
+
+.programBanner:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)) !important;
+}
+
+.SchoolIntro-section .stories-section__videoThumb--video .play-btn {
+    left: 50% !important;
+    top: 50% !important;
+}
+
+.collabLogos {}
+
+.collabLogos .img-1 {
+    height: 75px;
+    width: 90px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.collabLogos .img-2 {
+    height: 75px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.CollabHead h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: -21px !important;
+}
+
+.programmes_section {
+    background: #eee;
+}
+
+.programmes_section .nav-tabs .nav-link {
+    padding: 8px 10px !important;
+    font-size: 18px !important;
+}
+
+.programmes_section .tab-content table tr td {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.programmes_section .tab-content table tr td a {
+    font-size: 13px;
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+
+.programmes_section .tab-content table tr td a:hover {
+    text-decoration: underline;
+}
+
+.programmes_section .tab-content table tr td span {
+    color: #f77708;
+}
+
+.adm_open_side_panel .main-heading h2 {
+    color: #c92039;
+/*    font-size: 28px;*/
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.linkBox {
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.linkBox h3 {}
+
+.linkBox a {
+    text-decoration: none;
+    color: #c92039;
+    font-size: 22px;
+
+}
+
+.linkBox a:hover {
+    text-decoration: underline;
+    color: #c92039;
+}
+
+.DeanMessageSection img {
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+
+.DeanMessageSection .fa-quote-left {
+    color: #fba215;
+    font-size: 45px;
+    margin-top: -20px
+}
+
+.DeanMessageSection .btn-default {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.DeanNameBox {
+    border-left: 6px solid #fba215;
+    padding-left: 10px;
+}
+
+.DeanNameBox h5 {
+    color: #fba215;
+}
+
+.DeanNameBox h6 {
+    color: #fff;
+}
+
+.dPic .deanpic {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    border: 3px solid #c92039;
+    padding: 3px;
+}
+
+#readMoreDeasMessage .modal-title {
+    color: #c92039;
+}
+
+.DeanNameBoxPopup {
+    padding: 8px 2px 1px 6px;
+    ;
+}
+
+.DeanNameBoxPopup h5 {
+    color: #000;
+}
+
+.DeanNameBoxPopup h6 {
+    color: #000;
+}
+
+.VisionMissionSection .main-heading {
+    margin-bottom: 15px !important;
+}
+
+.PlacementHighlightsSoEC .card {
+    min-height: 140px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.PlacementHighlightsSoEC .card .card-body {}
+
+.PlacementHighlightsSoEC .card .card-title span {
+    background: #172b52;
+    color: #fff;
+    padding: 5px 9px 3px 8px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.PlacementHighlightsSoEC .card .card-subtitle {}
+
+.Engtestimonials .pagination-style-1 .slick-arrow {
+    border: 0px solid #fff !important;
+    color: #fff;
+}
+
+.SoECFaultySlider .faculty-section__slider--item {
+    margin-right: 8px !important;
+}
+
+.bigInfo-section__content {
+    background: #172b52 !important;
+    color: #fff;
+
+}
+
+.bigInfo-section__content::after {
+    background: #172b52 !important;
+}
+
+.VisionMissionSection .main-heading h2 {
+    color: #fff;
+    /*border-left: 4px solid #fff;
+    padding-left: 5px;*/
+}
+
+.VisionMissionSection p {
+    color: #fff;
+}
+
+.SchoolHighlight_section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    background: #ddd !important;
+}
+
+.SchoolHighlight_section .card {
+    background: linear-gradient(1deg, #b8c5d6 0%, #e7e8ed 30%) !important;
+    border-radius: 20px;
+    border: 0px solid #ccc !important;
+
+}
+
+.SchoolHighlight_section .main-heading span {
+    font-weight: 400;
+}
+
+.SchoolHighlight_section .main-heading h2 {
+    border-left: 5px solid #c92039;
+    padding-left: 5px;
+}
+
+.SchoolHighlight_section .card-body {
+    padding: 15px !important;
+}
+
+.SchoolHighlight_section .card-body h4 {
+    margin-bottom: 10px !important;
+    color: #182b53;
+}
+
+.SchoolHighlight_section .card-body p {
+    font-size: 15px;
+}
+
+.SchoolHighlight_section .card-body img {
+    width: 58px;
+    margin-bottom: 12px;
+}
+
+.SchoolHighlight_section::before {
+    /*content: '';
+   
+    background: rgb(255 255 255 / 60%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;*/
+}
+
+.AdmSec .linkBox h3 a {
+    color: #c92039 !important
+}
+
+.fa-file-pdf-o {
+    color: #c92039 !important;
+}
+
+.NewsletterClass table td {
+    font-size: 18px !important;
+    line-height: 20px !important;
+}
+
+.NewsletterClass table td a {
+    color: #172b52 !important;
+    text-decoration: none;
+}
+
+.NewsletterClass table td a:hover {
+    color: #c92039 !important;
+    text-decoration: underline;
+}
+
+.PlacementHighlightsSoEC .main-heading h2 {
+    border-left: 5px solid #c92039 !important;
+    padding-left: 5px;
+}
+
+.nextGenNewsletter {
+    background: #172b52;
+    color: #fff;
+}
+
+.nextGenNewsletter h4 {
+    padding-top: 23px;
+}
+
+.nextGenNewsletter h4 a {
+    color: #fba215 !important;
+    text-decoration: none;
+    font-size: 18px;
+
+
+}
+
+.nextGenNewsletter h4 a .fa {
+    color: #fba215 !important;
+}
+
+.nextGenNewsletter h3 {
+    line-height: 25px;
+}
+
+.mvtitle h2 {
+    color: #fff !important;
+}
+
+.sopr_achievers .slick-slide img {
+    width: 230px !important;
+}
+
+.iiaCertiticate {
+    width: 100%;
+    height: 350px;
+}
+
+.gotoTop {
+    right: 20px !important;
+}
+
+.top-notification-slider.stickyBottom {
+    background: #c92039 !important;
+}
+
+.SchoolIntro-section .specialization-thumb {
+    min-height: 240px !important;
+    position: relative;
+    width: 340px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.10) 6px 18px 31px;
+}
+
+.SchoolIntro-section .specialization-thumb p {
+    color: #fff !important;
+}
+
+.SchoolIntro-section .specialization-thumb::before {
+    /* content: '';
+    background: rgba(37, 37, 37, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;*/
+}
+
+.BrandCamps a {
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.CE_courses .card-title {
+    font-weight: 600;
+}
+
+.DepartSec .linkBox {
+    padding: 2px 5px 4px 12px;
+    margin-bottom: 6px;
+    border-bottom: 0px solid #ccc;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.10) 6px 18px 31px;
+    border-radius: 13px;
+}
+
+.DepartSec .linkBox a {
+    font-size: 20px;
+}
+
+.DepartSec .linkBox .fa-external-link {
+    float: right;
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+.DepIntro_Sec .specialization-thumb {
+    min-height: 194px !important;
+    position: relative;
+    width: 394px !important;
+    margin-right: 10px !important;
+    box-shadow: rgba(0, 0, 0, 0.10) 6px 18px 31px;
+}
+
+.faculty-section .faculty-section__slider .card {
+    /*box-shadow: rgba(0, 0, 0, 0.1) 6px 18px 31px !important;
+    border:0px !important;*/
+
+    border: 1px solid #888 !important;
+    text-align: center !important;
+    padding-top: 13px !important;
+}
+
+.faculty-section .faculty-section__slider .card img {
+    width: 180px !important;
+    border-radius: 100% !important;
+    display: inline !important;
+        border: 1px solid #ccc;
+}
+
+.faculty-section .faculty-section__slider .card .card-footer {
+    padding: 15px 3px 2px 11px !important;
+    background-color: #fff !important;
+    border-top: 0px !important;
+    min-height: 70px !important;
+}
+
+/* dep labs css */
+/* dep labs css */
+/* dep labs css */
+
+.DepLabs_lifeatuu {
+    background-color: #eee !important;
+}
+
+.DepLabs_lifeatuu .page-heading h2 {
+    color: #fff;
+}
+
+.DepLabs_lifeatuu::before {
+    background: none !important;
+}
+
+.DepLabs_lifeatuu .card img {
+    width: 100% !important;
+}
+
+.DepLabs_lifeatuu .LabTitle h4 {
+    color: #c92039;
+    margin-bottom: 10px !important;
+    /*    text-decoration: underline;*/
+}
+
+.DepLabs_lifeatuu .LabTitle p {
+    color: #000;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.DepLabs_lifeatuu .card {
+    background: #fff !important;
+}
+
+.DepLabs_lifeatuu .page-heading span {
+    font-weight: 400;
+}
+
+.DepLabs_lifeatuu .page-heading h2 {
+    border-left: 5px solid #c92039;
+    padding-left: 5px;
+}
+
+.DepLabs_lifeatuu .card-body {
+    padding: 15px !important;
+}
+
+.DepLabs_lifeatuu .card-body h4 {
+    margin-bottom: 10px !important;
+    color: #182b53;
+}
+
+.DepLabs_lifeatuu .card-body p {
+    font-size: 15px;
+}
+
+.DepLabs_lifeatuu .card-body img {
+    width: 58px;
+    margin-bottom: 12px;
+}
+
+
+/* school labs css */
+/* school labs css */
+/* school labs css */
+.DepLabs {
+    background-color: #172b52 !important;
+}
+
+.DepLabs .page-heading h2 {
+    color: #fff;
+}
+
+.DepLabs::before {
+    background: none !important;
+}
+
+.DepLabs .card img {
+    width: 100% !important;
+}
+
+.LabTitle h4 {
+    color: #fff;
+    margin-bottom: 10px !important;
+    /*    text-decoration: underline;*/
+}
+
+.LabTitle p {
+    color: #eee;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.DepLabs .card {
+    background: #fff !important;
+}
+
+.DepLabs .page-heading span {
+    font-weight: 400;
+}
+
+.DepLabs .page-heading h2 {
+    border-left: 5px solid #c92039;
+    padding-left: 5px;
+}
+
+.DepLabs .card-body {
+    padding: 15px !important;
+}
+
+.DepLabs .card-body h4 {
+    margin-bottom: 10px !important;
+    color: #182b53;
+}
+
+.DepLabs .card-body p {
+    font-size: 15px;
+}
+
+.DepLabs .card-body img {
+    width: 58px;
+    margin-bottom: 12px;
+}
+/* end school labs css */
+
+
+.GallerySec .row {
+    --bs-gutter-x: 7px !important;
+}
+
+.GallerySec .stories-section__videoThumb--video .play-btn-sm .circle {
+    width: 30px;
+    height: 30px;
+}
+
+.GallerySec .stories-section__videoThumb--video .thumbImg {
+    width: 100% !important;
+    height: 180px;
+
+}
+
+.CSE_Dep .card {
+    min-height: 306px;
+    margin-bottom: 10px;
+}
+
+.CA_Dep .card {
+    min-height: 290px;
+    margin-bottom: 10px;
+}
+
+.DepartSec .card:hover {
+    background-color: #172b52 !important;
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+.DepartSec .card:hover .btn-primary {
+    border: 0px solid #fff !important;
+    background: #c92039 !important;
+}
+
+.admissionsOpenTopLink {
+    margin-top: -4px;
+}
+
+.admissionsOpenTopLink a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 7px 10px 6px 10px;
+    border-radius: 7px;
+}
+
+.admissionsOpenTopLink a:hover {
+    background: #f77708;
+    transition: 0.5s;
+    border: 1px solid #f77708;
+}
+
+.footer a:hover {
+    color: #fba215 !important;
+    opacity: 0.9 !important
+}
+
+.course_features {
+    padding: 15px !important;
+}
+
+.course_features .list-icon-4>li {
+    margin-bottom: 5px !important;
+}
+
+.course_features {
+    min-height: 330px !important;
+}
+
+.list-icon-4>li::before {
+    font-family: FontAwesome;
+    content: "\f178";
+    position: absolute;
+    left: -23px;
+    top: 0;
+    color: #c92039;
+}
+
+.eligibility-block .list-icon-3>li::before {
+    font-family: FontAwesome;
+    content: "\f178" !important;
+    position: absolute;
+    left: -23px;
+    top: 0;
+    color: #c92039;
+}
+
+.eligibility-block {
+    padding: 15px !important;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.fees-section .table thead th {
+    background: #172b52 !important;
+}
+
+.DownloadFees tr th {
+    color: #c92039;
+    font-size: 17px !important;
+}
+
+.feeTables table tr th {
+    font-size: 15px;
+}
+
+.copo_section {
+    background: #172b52;
+}
+
+.copo_section .page-sub-heading h3 {
+    color: #fff;
+}
+
+.copo_section .list-icon-3>li {
+    color: #ddd;
+}
+
+.copo_section .list-icon-3>li::before {
+    font-family: FontAwesome;
+    content: "\f178";
+    position: absolute;
+    left: -23px;
+    top: 0;
+    color: #ddd;
+}
+
+.copo_section table tr td {
+    color: #ddd !important;
+    border: 0px !important;
+    font-size: 14px !important;
+}
+
+.copo_section .table-bordered>:not(caption)>* {
+    border-width: 0px 0 !important;
+}
+
+.copo_section .page-sub-heading h3 {
+    border-left: 5px solid #f77708;
+    padding-left: 5px;
+}
+
+.ProgramGrids .card {
+    min-height: auto !important;
+    padding: 15px 5px 10px 27px !important;
+    border-radius: 15px;
+}
+
+.ProgramGrids .card a {
+    color: #c92039 !important;
+    text-decoration: none !important;
+}
+
+.ProgramGrids .card:hover a {
+    color: #fba215 !important;
+    text-decoration: underline !important;
+}
+
+.job_opportunity {}
+
+.job_opportunity .page-heading h3 {
+    color: #000;
+}
+
+.job_opportunity .list-icon-3>li {
+    color: #333 !important;
+}
+
+.job_opportunity .list-icon-3>li::before {
+    font-family: FontAwesome;
+    content: "\f178";
+    position: absolute;
+    left: -23px;
+    top: 0;
+    color: #333;
+}
+
+.IntroPara a {
+    text-decoration: none !important;
+}
+
+.DepIntro_Sec p a {
+    text-decoration: none !important;
+}
+
+.searchBtn {
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.searchBtn .fa {
+    color: #c92039 !important;
+    font-size: 30px;
+}
+
+.searchBtn:hover {
+    color: #fff !important;
+}
+
+.searchBtn .fa:hover {
+    background: #fff !important;
+    color: #172b52 !important;
+
+}
+
+.searchModal .modal-header .btn-close {
+
+    margin: -0.5rem -0.5rem 0.5rem auto !important;
+    color: red;
+}
+
+.SearchMobile_box {
+
+    display: none;
+}
+
+.SearchMobile_box .fa {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.FellowshipCard {
+    padding: 10px;
+    border-radius: 15px;
+    background: #eee;
+    margin-bottom: 15px;
+}
+
+.SpecificCourse h2 {
+    border-left: 5px solid #f77708;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.SpecificCourse h2 span {
+    font-weight: 300 !important;
+}
+
+.SpecificRow .card {
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.SpecificRow .card .fa-university {
+    position: absolute;
+    right: 17px;
+    bottom: 6px;
+    font-size: 22px;
+    color: #172b52;
+    opacity: 0.6;
+}
+
+.SpecificRow .card:hover {
+    background: #172b52;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.SpecificRow .card:hover p {
+    color: #ddd;
+}
+
+.Notetxt {
+    background: #172b52;
+    color: #fff;
+}
+
+.Notetxt h4 {
+    border-left: 4px solid #f77708;
+    padding-left: 5px;
+    margin-bottom: 10px;
+
+}
+
+.Notetxt p {
+    font-weight: bold;
+    color: #ddd;
+}
+
+.SpecificRow .card::after {
+    content: '';
+    background: #172b52;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 9px;
+    height: 50%;
+}
+
+.CourseInternalLinksSection {
+    margin-bottom: 15px;
+    padding: 12px;
+
+}
+
+.CourseInternalLinksSection:hover {
+    background: #172b52;
+    transition: 0.5s;
+}
+
+.CourseInternalLinksSection:hover a {
+    color: #fff;
+}
+
+.CourseInternalLinksSection a {
+    color: #172b52;
+    text-decoration: none !important;
+    font-size: 18px;
+    margin-left: 19px;
+}
+
+.CourseInternalLinksSection a:hover {
+    text-decoration: underline !important;
+    color: #fba215;
+}
+
+
+
+.CourseInternalLinksSection .fa-angle-double-down {
+    float: right;
+}
+
+.CourseInternalLinksSection a::before {
+    font-family: FontAwesome;
+    content: "\f178";
+    position: absolute;
+    left: 7px;
+    top: 11px;
+    color: #c92039;
+}
+
+.KeyHeading h3 {
+    font-size: 19px;
+}
+
+.KeyListItems li::before {
+    font-family: FontAwesome;
+    content: "\f178";
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    color: #c92039;
+}
+
+.CeSpecial h2 {
+    font-size: 23px;
+    line-height: 24px;
+}
+
+.CustomAcc .accordion-button {
+    background: #eee !important;
+    color: #172b52 !important;
+    font-weight: bold;
+}
+
+.CustomAcc .accordion-item {
+    margin-bottom: 10px;
+}
+
+.CeMtechGridTitle {
+    font-size: 24px;
+    margin-left: 6px;
+    text-decoration: underline;
+}
+
+.ApplyNowCards .card {
+    min-height: auto !important;
+}
+
+.GridCard .card {
+    padding: 13px;
+    margin-bottom: 11px;
+    border: 1px solid #ddd !important;
+    border-radius: 20px;
+}
+
+.GridCard .card a {
+    text-decoration: none;
+    color: #c92039;
+}
+
+.GridCard .card:hover {
+    background: #172b52;
+    transition: 0.5s;
+}
+
+.GridCard .card:hover .fa {
+    color: #fff;
+}
+
+.GridCard .card:hover a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.GridCard .card a .fa-external-link {
+    float: right;
+}
+
+.ece_phd .card {
+    background: transparent !important;
+    color: #eee;
+    padding: 10px;
+    border: 0px;
+}
+
+.ece_phd .card:hover {
+    background: #eee !important;
+    transition: 0.3s;
+    border-radius: 15px;
+    color: #000;
+}
+
+.ece_phd .card:hover .page-sub-heading h3 {
+    color: #172b52;
+}
+
+.ece_phd .card::after {
+    content: '';
+    background: #172b52;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 9px;
+    height: 50%;
+}
+
+/* School Page CSS End */
+/* School US Page CSS End */
+
+
+
+.leadershipBox {
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0px !important;
+    border: 0px !important;
+    background: #fff;
+    margin-bottom: 25px;
+    min-height: 348px;
+}
+
+.leadershipBox h3 {
+    font-size: 17px;
+    margin-top: 12px;
+    line-height: 17px;
+    margin-bottom: 5px;
+    color: #c92039;
+}
+
+.leadershipBox h4 {
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.leadershipBox p a {
+    text-decoration: none;
+    color: #12409b;
+    font-size: 15px;
+}
+
+.leadershipBox:hover {
+    background: #172b52;
+    transition: 0.4s;
+}
+
+.leadershipBox:hover h3 {
+    color: #fff;
+}
+
+
+.leadershipBox:hover h4 {
+    color: #fba215;
+}
+
+.leadershipBox:hover p a {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+.leadershipBox::after {
+    content: '';
+    background: #c92039;
+    position: absolute;
+    top: 14%;
+    right: 0;
+    width: 9px;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* About us section pages */
+
+/* Admission  section pages */
+/* Admission  section pages */
+.CampusAddress {}
+
+.CampusAddress h3 {
+    color: #eee;
+}
+
+.CampusAddress h5 {
+    color: #eee;
+}
+
+.CampusAddress p {
+    color: #eee;
+}
+
+.CampusAddress p a {
+    color: #f77708;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.CampusAddress p .fa {
+    color: #f77708;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.CampusAddress p a:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.admissionBox {
+    padding: 15px;
+    border: 0px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 195px;
+}
+
+.admissionBox::after {
+    content: '';
+    background: #172b52;
+    position: absolute;
+    top: 14%;
+    right: 0;
+    width: 6px;
+    height: 62%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.admissionBox h3 {
+    color: #c92039;
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.admissionBox h4 {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.admissionBox p {
+    margin-top: 5px;
+}
+
+.admissionBox p span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.admissionBox h4 span {
+    font-weight: bold;
+
+}
+
+.admissionBox p a {
+    color: navy;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.admissionBox p a:hover {
+    text-decoration: underline;
+    color: #c92039;
+    transition: 0.3s;
+}
+
+.admissionBox:hover {
+    background: #172b52;
+    transition: 0.4s;
+    color: #fff;
+}
+
+.admissionBox:hover h3 {
+    color: #f77708;
+}
+
+.admissionBox:hover p {
+    color: #fff;
+}
+
+.admissionBox:hover p a {
+    color: #fff;
+}
+
+.contactDetails_Section .ContactInfo {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.contactDetails_Section .page-sub-heading h3 {
+    color: #c92039;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+
+
+.contactDetails_Section .page-sub-heading h4 {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+.contactDetails_Section .page-sub-heading p {}
+
+.contactDetails_Section .page-sub-heading p a {
+    text-decoration: none;
+}
+
+.contactDetails_Section {}
+
+
+.SocialMediasLinks a {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.SocialMediasLinks a .fa {
+    background: #c92039;
+    font-size: 20px;
+    padding: 7px 0px 3px 9px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.SocialMediasLinks a .fa:hover {
+    background: #172b52;
+    transition: 0.3s;
+}
+
+.table thead th {
+    background: #c92039 !important;
+}
+
+.quickLinks .btn-primary {
+    background: #172b52;
+}
+
+.quickLinks .btn-primary:hover {
+    background: #c92039;
+    transition: 0.4s;
+}
+
+.visionmission img {
+    width: 55px;
+}
+
+.visionmission ul li {
+    margin-bottom: 5px !important;
+}
+
+.visionmission .page-sub-heading h2 {
+    font-size: 27px
+}
+
+.table {
+    font-size: 14px !important;
+    line-height: 17px !important;
+}
+
+.LeftMessageBoxCol {
+    background: #172b52;
+    border-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.LeftMessageBoxCol {
+    background: #172b52;
+    border: 0px;
+    color: #fff;
+}
+
+.LeftMessageBoxCol .fa {
+    color: #fba215;
+    font-size: 43px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.LeftMessageBoxCol h4 {
+    font-size: 20px;
+    padding: 12px;
+    padding-bottom: 30px;
+}
+
+.CloseQuote .fa {
+    float: right;
+    color: #fba215;
+    font-size: 43px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.Leadershipname {
+    border-left: 6px solid #fba215;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.dbuuAdmissionProcessSec .card {}
+
+.dbuuAdmissionProcessSec .titleBox .card-title {
+    background-image: linear-gradient(#172b52, #c92039);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dbuuAdmissionProcessSec .titleBox .card-title h3 {
+    font-size: 18px;
+}
+
+#DocumentListadm .card {
+    background: #fff;
+    color: #000;
+    border: 0px !important;
+    width: 100% !important;
+    font-weight: 500;
+    min-height: 372px;
+}
+
+#DocumentListadm .card:hover {
+    background: #172b52;
+    transition: 0.3s;
+    color: #eee;
+}
+
+#DocumentListadm .card .list-icon-4>li {
+    margin-bottom: 4px !important;
+}
+
+.list-icon-n>li {
+    margin-bottom: 5px !important;
+}
+
+.feepaymentSec .card {
+    min-height: auto !important;
+}
+
+.accordion-flush .accordion-button span {
+    background: #c92039;
+    color: #fff;
+    padding: 4px 8px 3px 7px;
+    width: 24px;
+    margin-right: 7px;
+    border-radius: 7px;
+}
+
+.EligibilitySec .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px !important;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    background-color: #172b52;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    margin-bottom: 4px;
+}
+
+.EligibilitySec .accordion-button .fa {
+    margin-right: 10px;
+}
+
+.EligibilitySec .accordion-button::after {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.EligibilitySec table tr th {
+    background: #ccc !important;
+    color: #000 !important;
+}
+
+.EligibilitySec .list-icon-4>li {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.EligibilitySec .accordion-button:not(.collapsed) {
+    /* color: #fba215 !important;
+    font-size: 20px !important; */
+}
+
+.feepaymentSec .accordion-body {
+    padding: 2px 12px 0px 10px !important;
+}
+
+.campusInfoBox {
+    background: #172b52 !important;
+    color: #fff !important;
+}
+
+.campusInfoBox p {
+    color: #eee;
+}
+
+.FeeCancelPolicy .card {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.FeeCancelPolicy .page-sub-heading h3 {
+    color: #c92039;
+}
+
+.PlacementProcess {
+    background: #eee;
+}
+
+.PlacementProcess .processNo {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 8px 6px 6px 6px;
+    opacity: 0.3;
+}
+
+.PlacementProcess .card {
+    min-height: 170px;
+}
+
+.PlacementProcess .card-body img {
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.PlacementProcess .card-body h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.eresourcesLinks .card {
+    padding: 10px 9px 1px 11px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.library_rules .card {
+    background: transparent;
+    color: #eee;
+    border: 1px solid #666;
+    border-radius: 15px;
+    padding: 1px 8px 0px 8px;
+    min-height: 525px;
+    margin-top: 15px;
+}
+
+.library_rules .card ul li {
+    font-size: 15px;
+}
+
+.library_rules .card .list-icon-4>li::before {
+    font-family: FontAwesome;
+    content: "\f178";
+    position: absolute;
+    left: -23px;
+    top: 0;
+    color: #eee !important;
+}
+
+.campusLifeShort .card {}
+
+.campusLifeShort .card span {
+    font-size: 40px;
+    color: #172b52;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.campusLifeShort .card h5 {
+    font-size: 20px;
+}
+
+.campusLifeShort .card ul li {}
+
+.campuslifeslides-section__slider .pl-item {
+    background: #eee !important;
+    min-height: 390px !important;
+    border: 0px !important;
+    border-radius: 18px
+}
+
+.campuslifeslides-section__slider .pl-item img {
+    border-radius: 18px;
+}
+
+.campuslifeslides-section__slider .pl-item p {
+    padding: 15px;
+}
+
+
+.campuslifeslides-section__slider .slick-arrow {
+
+    bottom: -30px !important;
+    color: #eee;
+
+}
+
+.slidesTwo .pl-item {
+    min-height: 125px !important;
+}
+
+.slidesTwo .pl-item img {
+    height: 210px !important;
+}
+
+.slidesTwo .slick-arrow {
+
+    bottom: -30px !important;
+    color: #c92039;
+
+}
+
+#MousSection .card {
+    min-height: 282px !important;
+}
+
+#MousSection .card .card-body .card-title {
+    font-size: 16px !important;
+}
+
+#MousSection .card .fa-long-arrow-right {
+    color: #c92039;
+    font-size: 20px !important;
+}
+
+#MousSection .card a {
+    color: #c92039;
+    text-decoration: none;
+}
+
+.erp_logn .card {
+    border: none !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #eee;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.erp_logn .card h4 {
+    font-size: 21px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.FeeCancelPolicy .list-icon-4>li {
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.htitleColor {
+    color: #c92039 !important;
+}
+
+.btitle {
+    background: #eee;
+    padding: 34px 20px 23px 29px;
+    border-radius: 15px;
+}
+
+.btitle .fa-long-arrow-right {
+    color: #c92039;
+}
+
+.otherallscholarship .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 302px;
+}
+
+.otherallscholarship .card h4 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.otherallscholarship .card .card-footer {
+    padding: .5rem 1rem;
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 90% !important;
+    bottom: 12px !important;
+    background: #eee !important;
+    border-radius: 20px !important;
+    border: 0px !important;
+}
+
+
+.CategorThree .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 302px;
+    background: #eee;
+    border: 0px;
+}
+
+.CategorThree .card h4 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.CategorThree .card .card-footer {
+    padding: .5rem 1rem;
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 90% !important;
+    bottom: 12px !important;
+    background: #fff !important;
+    border-radius: 20px !important;
+    border: 0px !important;
+}
+
+.scholarshipNote ul li {
+    color: #eee;
+}
+
+.scholarshipNote .card {
+    background: transparent;
+    border: 1px solid #666;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.newageUniversity .card {
+    min-height: auto !important;
+    background: transparent;
+    color: #eee;
+    border: 1px solid #666;
+    border-radius: 20px;
+    padding: 20px 10px 15px 15px;
+    margin-bottom: 15px;
+}
+
+.newageUniversity .card img {
+    width: 45px;
+}
+
+.newageUniversity .card h3 {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* Admission  section pages */
+/* Admission  section pages */
+
+.nssAims .page-heading h2 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.nssAims {
+    padding: 15px;
+    border-radius: 20px;
+    background: #172b52;
+    color: #eee;
+}
+
+.sdggoalsLogos .col-md-2 {
+    padding: 3px !important;
+}
+
+.sdggoalsLogos .col-md-2 img {
+    border-radius: 10px;
+}
+
+/*.schools-section__slider--item::before {
+    content: '';
+    background: rgba(37, 37, 37, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}*/
+
+.schools-section__slider--item {
+    border-radius: 20px !important;
+}
+
+.schools-section__slider--item::before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9556197478991597) 0%, rgba(46, 52, 125, 0) 100%);
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+
+.schools-section__slider--item .titleBoxSchool {
+    position: absolute;
+    top: 195px !important;
+    left: 8px;
+    right: 8px;
+    color: #fff;
+}
+
+.accredation-section__slider--item {
+    border: 1px solid #ccc !important;
+}
+
+.ResearchCollab .pl-item {
+    border-radius: 15px !important;
+}
+
+.ResearchCollab .pl-item img {
+    border-radius: 15px !important;
+}
+
+.studentLifeSection .col-md-12 {
+    padding: 0px !important;
+}
+
+.studentLifeSection .carousel-item {
+    padding: 10px !important;
+}
+
+.dropdown-toggle::after {
+    /* float: right !important;
+    margin-right: 9px !important;*/
+}
+
+.spoortiGallery-section__slider .pl-item {
+    background: #fff !important;
+    min-height: auto !important;
+    border: 0px !important;
+    border-radius: 18px;
+}
+
+#spoortiGallery .pagination-style-1 .slick-arrow {
+    position: absolute;
+    bottom: -28px;
+    border: 0px solid #c92039 !important;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    color: #c92039;
+    z-index: 1;
+}
+
+#cpfTopics ul li {
+    color: #eee;
+    margin-bottom: 5px !important;
+}
+
+#cpfTopics ul {
+    border: 1px solid #666;
+    padding: 10px 15px 10px 33px !important;
+    border-radius: 15px;
+}
+
+.mbrand {
+    display: none;
+}
+
+/* mobile css */
+/* mobile css */
+/* mobile css */
+/* mobile css */
+
+@media only screen and (max-width: 767px) {
+    .leadershipBox {
+        margin-bottom: 15px;
+    }
+
+    /*    .CategorThree .card{
+        min-height: auto;
+    }
+   
+
+.otherallscholarship .card{
+    min-height: auto;
+}*/
+    .btitle .fa-long-arrow-right {
+        display: none;
+    }
+
+    .btitle .fa-arrow-down {
+        display: block !important;
+        color: #c92039;
+    }
+
+    .btitle {
+        text-align: center;
+    }
+
+    .library_rules .card {
+        min-height: auto !important;
+    }
+
+    #DocumentListadm .card {
+        min-height: auto !important;
+    }
+
+    .brandLogo {
+        /*float: left !important;
+        width: 150px;*/
+        float: left !important;
+        width: 190px;
+        padding: 0px !important;
+        margin-left: -12px;
+    }
+
+    .GallerySec .stories-section__videoThumb--video .thumbImg {
+        width: 100% !important;
+        height: auto;
+
+    }
+
+    .MobileVersion {
+        display: block !important;
+    }
+
+    .SearchMobile_box {
+        margin-top: 7px;
+        display: block !important;
+    }
+
+    .topber_SearchBtn {
+        /*            display: none !important;*/
+    }
+
+    .RightColnewage {
+        display: block !important;
+    }
+
+    .leftColnewage {
+        display: none !important;
+    }
+
+    .LabTitle h4 {
+        margin-top: 12px;
+    }
+
+    .research-section__numbers .main-heading h2 {
+        margin-top: -42px;
+        margin-bottom: -16px !important;
+    }
+
+    .DepartSec .admHead h2 {
+        margin-bottom: 7px !important;
+        margin-top: 15px;
+    }
+
+    .DepartSec .main-heading h2 {
+        margin-bottom: -22px;
+    }
+
+    .DepartSec .card {
+        margin-top: 15px;
+    }
+
+    .research-section__numbers h3 {
+        font-size: 43px;
+        line-height: 43px;
+    }
+
+    .AcademicHead h2 {
+        padding-top: 17px;
+        margin-bottom: -10px !important;
+    }
+
+    .SchoolIntro-section .btn-primary {
+        margin-bottom: 15px;
+    }
+
+    .SchoolIntro-section .IntroPara {
+        margin-top: -30px;
+    }
+
+    .SchoolIntro-section .main-heading h2 {
+        margin-top: -30px;
+    }
+
+    .AdmSec .card {
+        margin-bottom: 10px;
+    }
+
+    .Exlnce {
+        width: 83px;
+        margin-top: -58px !important;
+    }
+
+    .nextGenNewsletter h4 {
+        margin-bottom: 10px !important;
+        margin-top: 0px !important;
+    }
+
+    .iiaCertiticate {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .topPhoneNo {
+        display: none;
+    }
+
+    .ourSchool-section .card {
+        margin-bottom: 15px;
+    }
+
+    .ScrollPlacement-section__slider .slick-slide img {
+        width: 53% !important;
+    }
+
+    .CampLifeDbu h2 {
+        margin-top: 15px;
+    }
+
+    .pt-10 {
+        padding-top: 100px;
+        padding-bottom: 70px !important;
+
+    }
+
+    .aboutNumber-section__nos span {
+        font-size: 25px;
+        line-height: 11px;
+    }
+
+    .aboutNumber-section__nos small {
+        line-height: 18px;
+        display: block;
+    }
+
+    .aboutNumber-section .borderBox {
+        border-bottom: 0px solid #eee;
+        border-right: 0px !important;
+
+    }
+
+    .JourneyHead {
+        padding-top: 40px;
+    }
+
+    .programBanner {
+        padding-top: 100px;
+    }
+
+    .DeanMessageSection .main-heading h2 {
+        margin-top: 25px;
+        margin-bottom: 25px !important;
+    }
+
+    .aboutUsBnr {
+        padding-top: 52px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .Right-1 {
+        margin-top: 20px;
+    }
+
+    .Right-2 {
+        margin-top: 20x;
+    }
+
+    .MobileView {
+        display: block !important;
+    }
+
+    .DesktopView {
+        display: none !important;
+    }
+
+    #Whydbuuitle {
+        text-align: center !important;
+    }
+
+    #Whydbuuitletag {
+        text-align: center !important;
+    }
+
+    /* .st-name{
+        text-align: center;
+        border-left: 0px !important;
+    }
+
+     .st-image{
+        text-align: center !important;
+    }
+     .st-image-logo{
+        text-align: center !important;
+    }*/
+
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1350px) {
+  .TopPhone a{
+     font-size: 13px !important;
+  }
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1100px) {
+   #adm_open{
+         display: block !important;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .topPhoneNo {
+        display: none;
+    }
+    .topNO{
+        display: none;
+    }
+    
+    .forWeb{
+        display: none;
+    }
+    .forMob{
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+     .diwaliTop{
+        display: none;
+    }
+    .mobile_light{
+        display: block !important;
+    }
+    .desktop_light{
+        display: none;
+    }
+
+
+    
+    .schools-section__slider--item .titleBoxSchool {
+        top: 140px !important;
+    }
+
+    .mobSocil {
+        padding: 15px;
+    }
+
+    .mobSocil h4 {
+        font-size: 18px;
+    }
+
+    .mobSocil a {
+        color: #c92039;
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: 600;
+        margin-left: 12px !important;
+        border-radius: 100%;
+        line-height: 61px;
+    }
+
+    .header-social ul li a {
+        font-size: 11px !important;
+        margin: 0 2px !important;
+    }
+
+    .placementMobView .PlacementStats {
+        border-bottom: 1px solid #ccc !important;
+    }
+
+    .navTop {
+        /* padding-top: 5px !important;
+     padding-bottom: 4px !important;*/
+    }
+
+    .mbrand {
+        display: block !important;
+    }
+
+    .research-section__numbers .card {
+        min-height: 115px !important;
+    }
+
+    .research-section__numbers h3 {
+        font-size: 30px;
+        line-height: 32px;
+
+    }
+
+    .research-section__numbers h3 span {
+        font-size: 21px;
+        margin-left: -8px;
+    }
+
+
+    .schools-section__slider--item .titleBoxSchool {
+        position: absolute;
+        top: 180px !important;
+    }
+
+}
+
+/* new css */
+.testi_home_slider .testimoni-section__slider--item .PlacedStuImg {
+    width: 120px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 20px !important;
+}
+
+.testi_home_slider .testimoni-section__slider--item .PlacedLogo {
+    border: 0px !important;
+    width: 137px !important;
+    height: 50px !important;
+}
+
+.testi_home_slider .testimoni-section__slider--item h5 {
+    font-size: 19px !important;
+    margin-top: 3px !important;
+}
+
+.testi_home_slider .testimoni-section__slider--item .PlacedLogoBadge {
+    border: 0px !important;
+    position: absolute !important;
+    right: 14px !important;
+    bottom: 28px !important;
+    width: 80px !important;
+    opacity: 0.5 !important;
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .testi_home_slider .testimoni-section__slider--item .PlacedLogoBox {}
+
+    .header-social ul li a {
+        font-size: 11px !important;
+        margin: 0 2px !important;
+    }
+
+    .mobSocil {
+        padding: 15px;
+    }
+
+    .mobSocil h4 {
+        font-size: 18px;
+    }
+
+    .mobSocil a {
+        color: #c92039;
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: 600;
+        margin-left: 12px !important;
+        border-radius: 100%;
+        line-height: 61px;
+    }
+
+    .TopBarView{
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+}
+
+.testimoni-section__slider--item p {
+    max-height: 180px !important;
+}
+
+.testimoni-section__slider--item {
+    height: 350px !important;
+}
+
+
+.SoECFaultySlider .pagination-style-1 .slick-arrow {
+
+    bottom: -32px !important;
+
+}
+
+.SoECFaultySlider {
+    padding-bottom: 50px !important;
+}
+
+
+/* Shool Event Style */
+.schoolevents-section__slider {}
+
+.schoolevents-section__slider h3 a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px !important;
+}
+
+.schoolevents-section__slider h3 a:hover {
+    text-decoration: underline;
+    color: #c92039;
+    transition: 0.4s;
+}
+
+.schoolevents-section__slider ul li {
+    list-style: none !important;
+    margin-left: -32px !important;
+    padding: 0px !important;
+}
+
+.schoolevents-section__slider .eCategiorySchool {
+    background: #c92039;
+    color: #fff;
+    padding: 2px 3px 3px 3px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.NewAdded .dropdown-item:hover {
+    color: #c92039 !important;
+}
+
+.somcPlacementSlides .pl-item {
+    background: #fff !important;
+}
+
+.somcPlacementSlides .pagination-style-1 .slick-arrow {
+    bottom: -36px !important;
+}
+
+.TopBarView{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* header extra */
+#phd_bg{
+    padding: 7px 7px 6px 9px;
+    /* animation: mymove 1s infinite; */
+    animation: mymoves 1500ms infinite;
+    transition: 0.8s;
+    border-radius: 10px;
+    line-height: 15px;
+    /* background: #eee !important; */
+    border: 1px solid #c92039;
+}
+
+/*@keyframes mymoves {
+  from {background-color: #c92039;}
+  to {background-color: #172b52;}
+}*/
+#phd_bg:hover{
+    background: #172b52;
+    transition: 0.4s;
+     border: 1px solid #172b52;
+}
+
+#phd_bg:hover a{
+  color:#fff;
+}
+
+#phd_bg:hover a .fa{
+  color:#fff;
+}
+
+#phd_bg a{
+  color: #c92039;
+}
+#phd_bg a .fa{
+  color: #c92039;  
+}
+
+
+
+#phd_bg1{
+    background: #c92039;
+    color: #fff !important;
+    padding: 7px 10px 4px 8px;
+ 
+        border-radius: 20px;
+        text-align: center;
+    animation: mymove 1s infinite;
+      
+}
+
+@keyframes mymove {
+  60% {box-shadow: 0px 3px 30px 6px #fba215;transition:0.6s}
+  
+}
+
+#phd_bg1 a{
+  color: #fff;
+}
+#phd_bg1 a .fa{
+  color: #fff;  
+}
+
+.hr_border{
+        margin: 10px 0 !important;
+}
+
+/*Student Testimonials */
+ .studentTestiSec-section__slider {
+/*            text-align: center;*/
+    display: block;
+}
+.studentTestiSec-section__slider .card-body img{
+    width: 100px !important;
+    border-radius: 100%;
+   display: inline-block;
+} 
+.studentTestiSec-section__slider  p{
+    font-size: 15px;
+    font-style: italic;
+    padding: 0px 12px 0px 13px;
+    line-height: 19px;
+    max-height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+.studentTestiSec-section__slider .card{
+    min-height: 425px;
+}
+ .studentTestiSec-section__slider .card .card-footer{
+    background: #172b52;
+    color: #fff;
+    border-left: 20px solid #fba215;
+    border-top: 0px !important;
+    text-align: center;
+ }
+ .studentTestiSec-section__slider .card  .fa-quote-left{
+    color: #f77708;
+    font-size: 35px;
+ }
+ .speaktitleImg_school {
+    width: 250px;
+/*    background: #fff;*/
+    padding: 10px 11px 7px 11px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.placedLogo-1{
+    display: none !important;
+}
+
+/* navadhara 24 */
+.dis_title{
+font-size: 20px;
+    line-height: 21px;
+    color: #c92039;
+}
+.w-para{
+ font-size: 15px;
+    line-height: 18px;
+    font-style: italic;
+}
+.dis_title_p2{
+font-size: 20px;
+    line-height: 21px;
+    color:#f77708;
+}
+
+.dis_para_p2{
+    color: #eee;
+    font-size: 15px;
+    line-height: 18px;
+    font-style: italic;
+}
+.arro{
+width: 55px;
+transition: 0.3s;
+}
+.arro:hover{
+    width: 75px;
+
+   
+}
+.instaLogo{
+    width: 30px;
+    margin-right: 6px;
+}
+.navadhard_social_card{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.navadhard_social_card h3{
+       font-size: 18px;
+    font-style: italic;
+    line-height: 20px;
+    padding: 7px 9px 7px 11px;
+    color: #444;
+
+}
+.navadhard_social_card .card-body{
+    padding: 0px !important;
+    min-height: 100px;
+}
+.navadhard_social_card .card-footer{
+    background: #ddd;
+    border-top: 0px !important;
+}
+.panel_link{
+    
+}
+
+ .schoolevents-section__slider_achievers .card{
+    border:0px !important;
+ }
+
+
+/* data table */
+   table.dataTable tbody th, table.dataTable tbody td {
+        padding: 8px 10px;
+        border: 1px solid #ccc;
+    }
+
+        table.dataTable thead>tr>th.sorting:before, table.dataTable thead>tr>th.sorting_asc:before, table.dataTable thead>tr>th.sorting_desc:before, table.dataTable thead>tr>th.sorting_asc_disabled:before, table.dataTable thead>tr>th.sorting_desc_disabled:before, table.dataTable thead>tr>td.sorting:before, table.dataTable thead>tr>td.sorting_asc:before, table.dataTable thead>tr>td.sorting_desc:before, table.dataTable thead>tr>td.sorting_asc_disabled:before, table.dataTable thead>tr>td.sorting_desc_disabled:before {
+    
+            content: none !important;
+        }
+
+        table.dataTable thead>tr>th.sorting:after, table.dataTable thead>tr>th.sorting_asc:after, table.dataTable thead>tr>th.sorting_desc:after, table.dataTable thead>tr>th.sorting_asc_disabled:after, table.dataTable thead>tr>th.sorting_desc_disabled:after, table.dataTable thead>tr>td.sorting:after, table.dataTable thead>tr>td.sorting_asc:after, table.dataTable thead>tr>td.sorting_desc:after, table.dataTable thead>tr>td.sorting_asc_disabled:after, table.dataTable thead>tr>td.sorting_desc_disabled:after {
+            top: 50%;
+            content: none !important;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current{
+            color: #fff !important;
+            border: 1px solid #fff !important; 
+            background: #c92039 !important;
+        }
+
+        .LeftMessageBoxCol h4{
+                font-style: italic !important;
+                font-size: 16px !important;
+        }
+
+.job_card{
+    border: 1px dashed #c92039;
+    padding: 14px 5px 0px 9px;
+    margin-bottom: 10px;
+    min-height: 80px;
+}
+.job_card p{
+  line-height: 16px;
+}    
+
+.whats-float {
+   position: fixed;
+       bottom: 47px;
+    left: 7px;
+    overflow: hidden;
+    color: #FFF;
+    border-radius: 4px 0 0 4px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    vertical-align: middle;
+}
+
+
+    
