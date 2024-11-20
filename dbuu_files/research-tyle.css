@@ -1,0 +1,258 @@
+.research-banner .main-heading h1 {
+    font-size: 48px;
+    line-height: 42px;
+    margin-top: 5px;
+    color: var(--text-white)
+}
+
+.research-banner p {
+    color: var(--text-white)
+}
+
+.research-banner ul {
+    max-width: 350px;
+}
+
+.research-banner ul h3 {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--text-green);
+    line-height: 60px
+}
+
+.research-banner ul li {
+    margin-bottom: 20px;
+}
+
+.research-banner ul li:last-child {
+    margin-bottom: 0
+}
+
+.research-banner ul small {
+    font-size: 14px;
+    color: var(--text-white);
+    line-height: 18px;
+    display: block;
+}
+
+.reseacrhStory__slider--item {
+    padding: 0 10px
+}
+
+.reseacrhStory__slider .card {
+    overflow: hidden;
+}
+
+.reseacrhStory__slider .card h4 {
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.reseacrhStory__slider .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9556197478991597) 0%, rgba(33, 51, 125, 0) 100%);
+}
+
+.reseacrhStory__slider .card h4,
+.reseacrhStory__slider .card p,
+.reseacrhStory__slider .card a {
+    position: relative
+}
+
+.reseacrhPublication-section::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: var(--faded-blue)
+}
+
+.reseacrhPublication-section .card .card-body {
+    min-height: 200px;
+}
+
+.reseacrhPublication-section .card .card-body,
+.reseacrhPublication-section .card .card-footer {
+    position: relative
+}
+
+.reseacrhPublication-section .card {
+    text-decoration: none;
+    background: #16276d;
+}
+
+.reseacrhPublication-section .card:hover {
+    background: rgb(97, 178, 57);
+    background: linear-gradient(90deg, rgba(97, 178, 57, 0.90) 0%, rgba(33, 51, 125, 1) 100%);
+}
+
+.reseacrhPublication-section .card:hover h4 {
+    text-decoration: underline;
+}
+
+.reseacrhPublication-section .card h4 {
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.reseacrhPublication-section .card h6 {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.reseacrhPublication-section .card span {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.placementVideo-section__content .page-heading h2 span {
+    color: var(--text-green);
+}
+
+.placementVideo-student img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.placementVideo-student__name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.placementVideo-student__name h4 {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--text-green);
+}
+
+.placementVideo-student__name small {
+    display: block;
+}
+
+.startups-section .card:hover img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.dataTable {
+    padding-top: 15px;
+    background: whitesmoke;
+}
+
+.reseacrhThrust-section::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: var(--faded-blue)
+}
+
+.reseacrhThrust-section .card h4 {
+    color: var(--text-black);
+    font-size: 16px;
+}
+
+.multiline-li {
+    -moz-column-count: 2;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 40px;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.research-no {
+    background: var(--bg-blue);
+}
+
+.research-no__content h3 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.patentAreas .card h4 {
+    color: var(--text-black);
+    font-size: 16px;
+}
+
+.email-dp {
+    display: inline-block;
+}
+
+.email-dp a {
+    color: var(--text-black);
+    text-decoration: none;
+    display: block;
+    background: var(--bg-gray);
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 8px 15px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.facility-msgs .carousel-indicators {
+    position: static;
+    margin: 15px 0 0 0;
+}
+
+.facility-msgs .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    background: var(--bg-blue);
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 991px) {
+    .programVideo {
+        margin-bottom: 20px;
+    }
+    .research-no__content h3 {
+        font-size: 46px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .research-banner ul {
+        max-width: 100%;
+        margin: 0 !important;
+        margin-top: 20px !important;
+        display: flex
+    }
+    .research-banner ul h3 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .research-banner .main-heading h1 {
+        font-size: 36px;
+        line-height: 34px;
+        margin-top: 5px;
+    }
+    .research-banner ul {
+        display: block
+    }
+    .research-banner ul h3 {
+        color: var(--text-white);
+    }
+    .research-no__content h3 {
+        font-size: 40px;
+    }
+}
